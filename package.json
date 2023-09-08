@@ -1,0 +1,17 @@
+{
+  "name": "qr-code-project",
+  "version": "1.0.0",
+  "description": "creating a QR generator using npm",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prabhat Kushwaha",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.2.10",
+    "qr-image": "^3.2.0"
+  }
+}
