@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Generator</title>
+</head>
+<style>
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 23, 23);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(60, 59, 59);
+    color: white;
+    border-radius: 5px;
+    padding: 14px 15px;
+    gap: 0.4rem;
+    width: 50%;
+  }
+
+  button{
+    margin-top: 5px;
+    background-color: rgb(25, 23, 23);
+    padding: 7px;
+    border-radius:10px ;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+  }
+  input{
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+  }
+</style>
+<body>
+  <div class="container">
+    <h2>Generate QR</h2>
+    <input type="url" placeholder="Enter your url">
+    <button> Generate</button>
+  </div>
+</body>
+</html>
